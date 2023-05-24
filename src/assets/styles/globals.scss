@@ -1,0 +1,16 @@
+
+@import "../styles/colours.scss";
+@import "../styles/mixins";
+
+@font-face {
+	font-family: $buenos_aires;
+	src: url("../../assets/font/buenosaireslight.eot");
+	src: local("Buenos Aires Light"), local("BuenosAires-Light"), url("../../assets/font/buenosaireslight.eot?#iefix") format("embedded-opentype"), url("../../assets/font/buenosaireslight.woff2") format("woff2"), url("../../assets/font/buenosaireslight.woff") format("woff"), url("../../assets/font/buenosaireslight.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: $buenos_aires !important;
+}
